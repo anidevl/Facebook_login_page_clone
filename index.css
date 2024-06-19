@@ -13,9 +13,8 @@ main{
     flex-wrap:wrap;
     background-color:#F0F2F5;
     height:44rem;
-/*     min-width:500px; */
+    min-width:700px;
     overflow:auto;
-    width:100%;
 }
 main .fb_logo{
     position:relative;
@@ -103,7 +102,7 @@ footer{
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    min-width:500px;
+    min-width:700px;
 }
 .languages{
     display:flex;
@@ -111,7 +110,7 @@ footer{
     justify-content:space-between;
     align-items:center;
     margin-top:188px;
-    min-width:500px;
+    min-width:700px;
 }
 .languages a{
     margin-right:20px;
@@ -133,7 +132,7 @@ footer{
     font-size: 1px;
     height: 8px;
     margin-bottom: 8px;
-    width:500px;
+    width:700px;
 }
 .copyright{
     position:relative;
