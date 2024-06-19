@@ -13,8 +13,9 @@ main{
     flex-wrap:wrap;
     background-color:#F0F2F5;
     height:44rem;
-    min-width:500px;
+/*     min-width:500px; */
     overflow:auto;
+    width:100%;
 }
 main .fb_logo{
     position:relative;
