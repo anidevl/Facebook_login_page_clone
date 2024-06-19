@@ -1,0 +1,142 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+main{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-wrap:wrap;
+    background-color:#F0F2F5;
+    height:44rem;
+    min-width:700px;
+    overflow:auto;
+}
+main .fb_logo{
+    position:relative;
+    top:-12%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:5em;
+    margin-top:88px;
+    margin-bottom:59px;
+
+}
+ main .fb_logo img{
+    height:7em;
+   
+
+}
+.form_box{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    top:-20%;
+    background-color:#FFFFFF;
+    width:446px;
+    min-width:440px;
+    border-radius:8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+
+}
+.form_box form{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.box_text{
+    font-size:18px;
+    line-height:22px;
+    text-align:center;
+    font-weight:300px;
+    margin-top:30px;
+}
+.form_box form input{
+    margin-top:20px;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border:1px solid #90949C;
+}
+#log_in{
+    margin-top:12px;
+    background-color:#166FE5;
+    color:#FFFFFF;
+    border:0;
+    font-weight:500px;
+    cursor:pointer;
+    transition:0.8s ease;
+}
+#log_in:hover{
+    background-color:#1b62bd;
+}
+.sign_up{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items:center;
+    margin:20px;
+    
+}
+.sign_up a{
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    padding:6px;
+    text-decoration:none;
+}
+.sign_up a:hover{
+    text-decoration:underline;
+}
+footer{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    min-width:700px;
+}
+.languages{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:188px;
+    min-width:700px;
+}
+.languages a{
+    margin-right:20px;
+    text-decoration:none;
+    color:#737373;
+}
+.languages a:hover{
+    text-decoration:underline;
+}
+.languages button{
+    width:32px;
+    font-weight:800;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.4s ease;
+}
+.line{
+    border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px;
+    width:700px;
+}
+.copyright{
+    position:relative;
+    left:-318px;
+    font-size: 11px;
+    color: #737373;
+}
